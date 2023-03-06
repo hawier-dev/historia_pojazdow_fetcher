@@ -4,7 +4,7 @@ This is a Python script that finds the first registration date of a car in Polan
 ## How to use
 
 ### Installation
-Download from [releases]()
+Download from [releases](https://github.com/hawier-dev/historia_pojazdow_fetcher/releases/latest)
 
 ### From source
 
