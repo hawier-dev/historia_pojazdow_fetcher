@@ -58,7 +58,7 @@ class ResultScreen(Screen):
         self.mileage_label = TextLabel(text="")
 
         self.back_button = PushButton(text="Back", on_click=root.back_to_home)
-        self.back_button = PushButton(text="Save JSON", on_click=self._save_json)
+        self.save_button = PushButton(text="Save JSON", on_click=self._save_json)
 
         self.main_layout.add_widget(self.model_and_name_label)
         self.main_layout.add_widget(SizedBox(height=10))
@@ -70,6 +70,7 @@ class ResultScreen(Screen):
 
         self.main_layout.add_widget(Spacer())
         self.main_layout.add_widget(self.back_button)
+        self.main_layout.add_widget(self.save_button)
         self.add_widget(self.main_layout)
 
     def _change_text(self, *_):
