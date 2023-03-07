@@ -16,4 +16,6 @@ python main.py
 - Enter your car’s registration number, year and VIN number in the script.
 - Run the script and wait for the date.
 
-This script uses brute force on https://historiapojazdu.gov.pl/. Use it at your own risk and respect the website’s rules.
+## Disclaimer
+
+This tool is for educational purposes only. Use it at your own risk. The author is not responsible for any consequences of using this tool.
